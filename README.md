@@ -49,6 +49,9 @@ Diabetes is a medical condition characterized by elevated blood sugar levels. Ac
   - F1-score
 
 ## Algorithms/ Methods
+  Bagging | Boosting | Stacking
+  :-------------------------:|:-------------------------:|:-------------------------:
+  ![images/1.%20Bagging.jpg](images/1.%20Bagging.jpg) | ![images/2.%20Boosting.jpg](images/2.%20Boosting.jpg) | ![images/3.%20Stacking.jpg](images/3.%20Stacking.jpg)
 - Bagging
 	- Bagging
 	- Random Forest
