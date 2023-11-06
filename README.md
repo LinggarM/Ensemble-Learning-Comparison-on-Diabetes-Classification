@@ -1,5 +1,5 @@
 # Ensemble-Learning-Comparison-on-Diabetes-Classification
-Comparison of ensemble learning methods on diabetes disease classification
+Comparison of ensemble learning methods on diabetes disease classification with various datasets
 
 ## About The Project
 
@@ -7,7 +7,7 @@ Comparison of ensemble learning methods on diabetes disease classification
 * In this project, we explore and compare the effectiveness of popular ensemble algorithms, such as Random Forest, AdaBoost, Gradient Boosting, and more, in diagnosing diabetes based on three different datasets of relevant features.
 * Key Features:
   - Implementation of different ensemble methods for classification
-  - Evaluation and comparison of model performance using metrics like accuracy, precision, and recall
+  - Evaluation and comparison of model performance using metrics like accuracy, precision, recall, and F1-score
   - Jupyter notebooks with detailed explanations and visualizations
   - Dataset used for experimentation
   - Code for preprocessing, model training, and evaluation
@@ -25,14 +25,42 @@ Comparison of ensemble learning methods on diabetes disease classification
 
 ## Objectives/ Problems
 
+Diabetes is a medical condition characterized by elevated blood sugar levels. According to the World Health Organization (WHO), the number of diabetes cases increased from 108 million to 422 million between 1980 and 2014. Machine Learning offers methods like Ensemble Learning for diabetes classification. This study compares three Ensemble Learning techniques, namely Bagging, Boosting, and Stacking, using three datasets: Pima Indians Diabetes, Frankfurt Hospital Diabetes, and Sylhet Hospital Diabetes.
+
 ## Dataset Used
 1. [Pima Indians Diabetes Database by UCI Machine Learning](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
 2. [Frankfurt Hospital Diabetes Dataset by John](https://www.kaggle.com/johndasilva/diabetes)
 3. [Sylhet Hospital Diabetes Dataset by Ishan Dutta](https://www.kaggle.com/ishandutta/early-stage-diabetes-risk-prediction-dataset)
 
 ## Workflow
+- Data Preprocessing
+  - MinMaxScaler for each dataset (change range of data to to fall within 0 and 1)
+- Data Exploration
+- Feature Engineering
+- Data Splitting
+  - 80% Training data
+  - 20% Testing data
+- Model Building
+- Model Training & Testing
+- Model Evaluation
+  - Accuracy
+  - Precision
+  - Recall
+  - F1-score
 
-## Algorithms
+## Algorithms/ Methods
+- Bagging
+	- Bagging
+	- Random Forest
+	- Extra Trees
+- Boosting
+	- Adaptative Boosting
+	- Gradient Boosting
+	- Extreme Gradient Boosting
+	- Light Gradient Boosting
+	- Cat Boosting
+- Stacking
+	- Stacked Generalization
 
 ## Performance (Accuracy)
 ### Dataset 1 (Pima Indians Diabetes Database)
@@ -41,6 +69,9 @@ Comparison of ensemble learning methods on diabetes disease classification
 ![images/Grafik%20Akurasi_Dataset%202.png](images/Grafik%20Akurasi_Dataset%202.png)
 ### Dataset 3 (Sylhet Hospital Diabetes Dataset)
 ![images/Grafik%20Akurasi_Dataset%202.png](images/Grafik%20Akurasi_Dataset%202.png)
+
+## Conclusion
+* In general, all Boosting methods give the best results for all datasets, but specifically, the Light Gradient Boosting method gives the best results in most of the data (Dataset 2 & Dataset 3)
 
 ## Publications
 * L. M. Cendani, and A. Wibowo, "*Perbandingan Metode Ensemble Learning pada Klasifikasi Penyakit Diabetes,*" JURNAL MASYARAKAT INFORMATIKA, vol. 13, no. 1, pp. 33 - 44, May. 2022. https://doi.org/10.14710/jmasif.13.1.42912
